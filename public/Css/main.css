@@ -1,0 +1,95 @@
+
+body{
+  background: #141E30;
+}
+
+* {
+   font-family: 'Georgia', 'Times', serif;
+}
+
+p{
+    /*width:60%;*/
+    font-size: 18px; 
+    line-height: 1.5em;
+    font-weight: 100;
+    margin: 0 auto;
+  
+}
+
+h1{
+   color: white;
+   font-family: "Playfair Display", serif;
+   font-size: 32px;
+     text-align: center;
+}
+
+h2{
+     text-align: "center";
+    font-family: "Playfair Display", serif;
+  font-size: 28px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav{
+ padding: 10px;
+ height: auto;
+ text-align: center;
+}
+
+.nav ul {
+  padding: 0;
+}
+
+.nav li {
+  color: #666666;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+section p{
+ text-align: left;
+}
+section{
+ padding: 20px;
+}
+
+.title h2,h3{
+    background-color: #FF8C00;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #FFF;
+  padding: 40px 0px;
+  margin: 5px 0px;
+}
+
+.article,.Cursos,.Oferta,.Nivel,.Cambridge,.TOFEL{
+    background-color: #357074;
+    color: beige;
+    border: 2px solid #FFF;
+  padding: 40px 0px;
+  margin: 5px 0px;
+    
+}
+
+.Video{
+ width: 60%;
+ margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+   color: beige;
+  
+}
+

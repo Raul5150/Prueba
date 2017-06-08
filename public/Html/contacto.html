@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="../Css/main.css">
+  <style>
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  <title>GDM English Institute</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <img src="../Img/index_01.jpg" class="responsive">
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="container">
+      <h1>MENU</h1>
+      <ul>
+        <li><a href='../index.html'>Inicio</a></li>
+        <li><a href='servicios.html'>Servicios</a></li>
+        <li><a href='equivalencia.html'>Equivalencia</a></li>
+        <li><a href='niveles.html'>Niveles</a></li>
+        <li><a href='contacto.html'>Contacto</a></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="contact">
+    <div class="contactowrapper">
+      <table width="100%" border="0">
+        <tr>
+          <td style="width:50%;">
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zIqOM9o_n2Ag.kSgh6VYZeKYM" style="width:100%; height:70vh;"></iframe>
+          </td>
+          <td style="background:#bcdcfe;">
+            <form method="POST">
+              <p>Escríbenos tus dudas, te responderemos con mucho gusto.</p>
+              <p>
+                Nombre<span style="color: #F00">*</span><br>
+                <input style="min-width:200px; border-radius:3px; font-size:15px; width:50%;" type="text" name="Nombre" size="30">
+                <br/> Correo
+
+                <span style="color: #F00">*</span><br>
+                <input style="min-width:200px; border-radius:3px; font-size:15px; width:50%;" id="email" oninvalid="InvalidMsg(this);" name="email"
+                  oninput="InvalidMsg(this);" type="email" required="required" size="30"><br /> Tel&eacute;fono
+
+                <br>
+                <input style="min-width:200px; border-radius:3px; font-size:15px; width:50%;" type="text" oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);"
+                  name="Telefono" size="30">
+                <br>
+              </p>
+              <p>Mensaje:<span style="color: #F00">*</span><br />
+                <textarea style="min-width:250px; border-radius:3px; font-size:15px; width:80%;" name="Mensaje" cols="80" rows="8"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+              </p>
+            </form>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; GDM English Institute, 2017</p>
+      <p>gdm_english@yahoo.com.mx</p>
+      <p>gdmd2006@yahoo.com.mx</p>
+      <p>Calle 1543 N° 11, Esquina con Av. 421 San Juan de Aragón, Sección 6</p>
+      
+    </div>
+  </footer>
+
+</body>
+<html>
